@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+      /*在此处补充代码*/
+      header{
+          display:flex;
+          justify-content:space-around;
+          background-color: #000;
+          color:#fff;
+      }
+      .nav{
+      	/*通过设定高度可以让li变得有空隙*/
+      	  width:400px;
+          display:flex;
+          list-style:none;
+          justify-content:space-between;
+      }
+      .login{
+      	width:90px;
+      	display:flex;
+      	justify-content:space-between;
+ 		/*以下就可以实现水平居中的做法*/
+      	align-items:center;
+      	
+      }
+      input{
+          height: 30px;
+          border: none;
+          color: #fff;
+          border-radius: 5px;
+          background-color: orange;
+      }
+       
+    </style>
+</head>
+<body>
+   <header>
+     <div class="logo">
+       <img src="http://climg.mukewang.com/59feb59700019dab01910057.png" alt="">
+     </div>
+       <ul class="nav">
+         <li>课程</li>
+         <li>路径</li>
+         <li>猿问</li>
+         <li>手记</li>
+       </ul>     
+     <div class="login">
+       <input type="button" value="登录">
+       <input type="button" value="注册">
+     </div>
+   </header>
+</body>
+</html>
