@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+     /* 在此处补充代码*/
+     *{
+      padding:0;
+      margin:0;
+     }
+     header{
+          display:flex;
+          justify-content:space-around;
+          background-color: #000;
+          color:#fff;
+      }
+      .nav{
+        /*通过设定高度可以让li变得有空隙*/
+          width:400px;
+          display:flex;
+          list-style:none;
+          justify-content:space-between;
+          align-items:center;
+      }
+      .login{
+        width:140px;
+        /*width:90px;*/
+        display:flex;
+        justify-content:space-around;
+        flex-direction:row;
+       /*以下就可以实现水平居中的做法*/
+        align-items:center;
+        
+      }
+      input{
+          width:60px;
+          height: 30px;
+          border: none;
+          color: #fff;
+          border-radius: 5px;
+          /*display:flex;*/
+          /*flex-wrap:wrap;*/
+          /*flex-direction:row;*/
+          /*justify-content: space-around;*/
+          /*margin-left:10px;*/
+          background-color: orange;
+      }
+      section{
+        /*通过flex 布局可以实现
+        卡片与卡片之间距离相等*/
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        justify-content: space-around;
+
+
+      }
+      .section{
+        background:#42ccfa;
+        height:100px;
+        margin:10px;
+        padding:20px;
+        width:45%;
+        border-radius:5px;
+        display: flex;
+        justify-content: space-between;
+      }
+       .btn{
+          width:100px;
+          height: 30px;
+          border: none;
+          color: #fff;
+          border-radius: 5px;
+          line-height:30px;
+          text-align: center;
+          /*margin-left:10px;*/
+          background-color: orange;
+          outline: none;
+           /*display：flex;*/
+          /*height:30px;*/
+          /*justify-content:center;*/
+          /*align-items:center;*/
+       
+      }
+      .shopping{
+          display:flex;
+          /*height:30px;*/
+          justify-content:center;
+          align-items:center;
+      }
+      .box{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+      }
+      .box p,.box div {
+        padding-bottom:15px;
+      }
+      .btn:hover ,input:hover{
+        color:#000;
+      }
+    </style>
+</head>
+<body>
+<!-- 头部 -->
+   <header>
+     <div class="logo">
+       <img src="http://climg.mukewang.com/59197ab000014f1503000100.jpg" alt="">
+     </div>
+       <ul class="nav">
+         <li>课程</li>
+         <li>路径</li>
+         <li>猿问</li>
+         <li>手记</li>
+       </ul>     
+     <div class="login">
+       <input type="button" value="登录">
+       <input type="button" value="注册">
+     </div>
+   </header>
+<!-- 主体内容 -->
+   <section>
+    <div class="section">
+      <div class="box">
+        <p>《前端小白入门手册》</p>
+        <div>适用人群：没有任何前端基础的小白</div>
+        <div>费用：￥499</div>
+      </div>
+      <div class="shopping">
+        <div class="btn">加入购物车</div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="box">
+        <p>《HTML5月CSS3实现动态网页》</p>
+        <div>适用人群：有html和css基础的童鞋</div>
+        <div>费用：￥599</div>
+      </div>
+      <div class="shopping">
+        <div class="btn">加入购物车</div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="box">
+        <p>《HTML5月CSS3实现动态网页》</p>
+        <div>适用人群：有html和css基础的童鞋</div>
+        <div>费用：￥599</div>
+      </div>
+      <div class="shopping">
+        <div class="btn">加入购物车</div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="box">
+        <p>《HTML5月CSS3实现动态网页》</p>
+        <div>适用人群：有html和css基础的童鞋</div>
+        <div>费用：￥599</div>
+      </div>
+      <div class="shopping">
+        <div class="btn">加入购物车</div>
+      </div>
+    </div>
+    </section>  
+</body>
+</html>
