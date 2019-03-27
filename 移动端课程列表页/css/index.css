@@ -1,0 +1,36 @@
+/*
+* @Author: sakurabei
+* @Date:   2019-03-27 20:43:25
+* @Last Modified by:   sakurabei
+* @Last Modified time: 2019-03-27 21:15:50
+*/
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+.footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:54px;
+	display:flex;
+	border-top:1px solid #ccc;
+	/* background:red; */
+	text-align:center;
+	font-size:12px;
+}
+.footericon{
+	/* 等分 */
+	flex:1;
+}
+.icon_a{
+	display:block;
+	margin:8px 0;
+	/* background:red; */
+}
+.iconactive{
+	color:#c9394a;
+}
