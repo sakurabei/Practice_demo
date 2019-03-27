@@ -2,7 +2,7 @@
 * @Author: sakurabei
 * @Date:   2019-03-27 20:43:25
 * @Last Modified by:   sakurabei
-* @Last Modified time: 2019-03-27 21:15:50
+* @Last Modified time: 2019-03-27 23:00:31
 */
 *{
 	margin:0;
@@ -10,6 +10,45 @@
 }
 a{
 	text-decoration:none;
+}
+body{
+	font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+	font-size: 14px;
+}
+.box{
+	max-width:6.4rem;
+	margin:0 auto;
+
+
+}
+.header{
+	display:flex;
+	height:44px;
+	padding:0 15px;
+	/* 垂直居中  */
+	align-items:center;
+	background:#ef1313;
+}
+.header_address{
+	margin-right:15px;
+	color:#fff;
+}
+.header_form{
+	/* 设置宽度为不定的 */
+	flex:1;
+}
+.header_form input{
+	width:100%;
+	/* 规定带边框的框： */
+	box-sizing:border-box;
+	height:28px;
+	border-radius: 8px;
+	border:none;
+}
+.header_message{
+	margin-left:15px;
+	color:#fff;
+
 }
 .footer{
 	position:fixed;
