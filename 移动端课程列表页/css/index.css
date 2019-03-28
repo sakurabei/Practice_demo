@@ -73,3 +73,43 @@ body{
 .iconactive{
 	color:#c9394a;
 }
+/*banner*/
+.banner{
+	overflow:hidden;
+	position:relative;
+	height:2.6rem;
+	width:6.4rem;
+	background:#666;
+
+}
+.inner{
+	position:relative;
+	width:9999px;
+	left:0;
+	top:0;
+}
+.innerwrapper{
+	width:6.4rem;
+	float:left;
+}
+.innerwrapper img{
+	width:100%;
+}
+.pagination{
+	position:absolute;
+	bottom:10px;
+	width:100%;
+	text-align:center;
+
+}
+.pagination span{
+	display:inline-block;
+	width:.16rem;
+	height:.16rem;
+	background-color:#9aa499;
+	border-radius:50%;
+	cursor:pointer;
+}
+.pagination .active {
+	background-color:#fff;
+}
