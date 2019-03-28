@@ -113,3 +113,26 @@ body{
 .pagination .active {
 	background-color:#fff;
 }
+/*content*/
+.content{
+	display:flex;
+	padding-top:0.1rem;
+	flex-wrap:wrap;
+	background:#fff;
+}
+.content div {
+	display:flex;
+	width:25%;
+	height:1.2rem;
+	flex-direction:column;
+	/*水平垂直居中*/
+	align-items: center;
+	justify-content: center;
+}
+.content div img{
+	width:.7rem;
+	height:.7rem;
+	border-radius: .35rem;
+	margin-bottom: 0.07rem;
+
+}
