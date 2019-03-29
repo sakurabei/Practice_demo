@@ -2,7 +2,7 @@
 * @Author: sakurabei
 * @Date:   2019-03-27 20:43:25
 * @Last Modified by:   sakurabei
-* @Last Modified time: 2019-03-27 23:00:31
+* @Last Modified time: 2019-03-29 10:51:39
 */
 *{
 	margin:0;
@@ -135,4 +135,25 @@ body{
 	border-radius: .35rem;
 	margin-bottom: 0.07rem;
 
+}
+.title{
+	height:.4rem;
+	background:#f0f0f0;
+	display:flex;
+	/* 分散在两边 */
+	justify-content:space-between;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	/* 垂直居中，交叉轴 */
+	align-items:center;
+	padding:.1rem .15rem;
+
+}
+.title span:nth-child(1){
+	color:#999;
+	font-size:400;
+}
+.title span:nth-child(2){
+	color:#c9394a;
+	font-weight:400;
 }
