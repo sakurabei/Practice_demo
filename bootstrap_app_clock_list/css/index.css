@@ -175,16 +175,18 @@ ul{
     }
 }
 /* 底下四符图片的位置 */
-#anim{
-	padding-top:20px;
+#anim {
+    padding-top: 20px;
 }
-.anb{
-	padding-top:20px;
-    /*padding-left:10px;*/
+
+.anb {
+    padding-top: 20px;
 }
-.animation{
-	width:100%;
-	position:relative;
-	height:200px;
-	overflow:hidden;
+
+.animation {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    overflow:hidden;
+
 }
